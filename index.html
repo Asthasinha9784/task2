@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>foodmood-cafe</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+     function OpenSlideMenu(){
+     	document.getElementById('menu').style.width  = '250px';
+     	document.getElementById('content').style.marginLeft = '250px';
+     }	
+      function CloseSlideMenu(){
+     	document.getElementById('menu').style.width  = '0';
+     	document.getElementById('content').style.marginLeft = '0';
+     }	
+    </script>
+</head>
+</body>
+
+<div id="content">
+
+<span class="slide">
+	<a href="#" onclick="OpenSlideMenu()">
+		<i class="fas fa-bars"></i>
+	</a>
+</span>
+
+<div id="menu" class="nav">
+	<a href="#" class="close" onclick="CloseSlideMenu()">
+		<i class="fas fa-times"></i>
+	</a>
+	<a href="#"><img src="logo.png" height="60px" width="120px"></a>
+	<a href="#">Home</a>
+	<a href="#">Pages</a>
+	<a href="#">Blog</a>
+	<a href="#">Portfolio</a>
+	<a href="#">Shop</a>
+	<a href="#">Contacts</a>
+</div>
+</div>
+
+<section class="heading">
+	<div class="div1">
+	<img src="burger-1.png" width="55%" height="650px">
+    </div>
+    <div class="div2">
+	<h1 style="color: white;">BURGER TIME</h1>
+	<p1 style="color: white;">Your Bacon<br>Cheeseburger</p1>
+	</div>
+	<div class="div3">
+	<img src="leaf-1.png" width="20%" height="200px">
+    </div>
+</section>
+
+
+
+
+</body>
+</html>
