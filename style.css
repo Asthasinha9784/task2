@@ -56,7 +56,7 @@ body{
 	overflow: hidden;
 	width: 100%;
 	background: black;
-	height: 60px;
+	height: 40px;
 }
 
 .heading{
@@ -64,7 +64,8 @@ body{
 	float: left;
 	background-color: #ffac47;
 	background-size: cover;
-	height: 620px;
+	height: 650px;
+
 }
 
 .div1{
@@ -73,25 +74,22 @@ body{
 	width: 80%;
 	padding-left: 20px;
 	padding-top: 100px;
-	transition: 1s;
 }
 
 .div2{
 	float: right;
 	font-weight: bold;
-	padding-right: 20px;
+	padding-right: 150px;
 	position: relative;
-	bottom: 100px;
+	bottom: 250px;
 }
 
 .div2 h1{
 	font-size: 30px;
-	padding-left: 50px;
+	padding-left: 20px;
 }
 .div2 p1{
-	font-size: 60px;
-	letter-spacing: 1px;
-	font-size: 90px;
+	font-size: 80px;
 }
 
 .div3{
@@ -101,24 +99,105 @@ body{
 	padding-right: 2px;
 }
 
+.slide{
+	text-align: center;
+}
 
+.img{
+	float: right;
+	position: absolute;
+	right: 0;
+	margin-right: 0;
+	margin-left: auto;
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	display: block;
+	width: 200px;
+	max-width: 100%;
+	padding-top: 300px;
+}
 
+.last{
+	float: left;
+	padding-left: 40px;
+	position: absolute;
+	bottom: 100px;
+}
 
+.pup{
+	float: left;
+	margin-top: 0;
+}
 
+.popy{
+	float: right;
+	position: absolute;
+	right: 0;
+	margin-right: 0;
+	margin-left: auto;
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	display: block;
+	width: 200px;
+	max-width: 100%;
+	margin-top: 80px;
+}
+.div2 img{
+	margin-top: 20px;
+	position: relative;
+	bottom: 60px;
+}
 
+.copy{
+	background: #ffac47;
+}
 
+.copy img{
+	float: right;
+	position: absolute;
+	right: 0;
+	margin-right: 0;
+	margin-left: auto;
+	display: block;
+	width: 200px;
+	height: 80px;
+	margin: 10px;
+	display: block;
+	width: 100px;
+	max-width: 100%;
+}
 
+.div2 p2{
+   font-size: 25px;
+}
 
+.div2 p3{
+   font-size: 25px;
+}
 
+.div2 p4{
+   font-size: 25px;
+   letter-spacing: 2px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.div2 .btnbanner{
+	width: 150px;
+	height: 50px;
+	background: #ffac47;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 20px 20px;
+	text-align: center;
+	font-size: 14px;
+	border-color: white;
+	margin-top: 20px;
+}
+ 
+.div2 .btnbanner:hover{
+	background: #fff;
+	color: #ffac47;
+}
